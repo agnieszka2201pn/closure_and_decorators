@@ -17,3 +17,16 @@ pomiędzy wywołaniami funkcji jesteśmy w stanie zapamiętać stan. Np przy po�
 ## Cons:
 - if you don't understand you can leak memory (spowolnienie aplikacji) 
 
+## Main rules:
+- DRY - don't repeat yourself
+- KISS - keep it simple, stupid!
+
+# Decorator
+- add additional functionality to function (augmented function)
+- 3 types of decorators:
+    1. function decorator, need to use closure for creating
+    2. Class decorator
+    3. decorator as a design pattern
+    - different from python decorator functionality
+    
+
